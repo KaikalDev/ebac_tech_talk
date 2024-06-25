@@ -1,3 +1,4 @@
+@use './variables';
 
 .hero {
     padding-top: 64px;
@@ -17,7 +18,7 @@
         left: 0;
         height: 100%;
         width: 100%;
-        background-color: #000;
+        background-color: variables.$textcolor2;
         content: '';
         opacity: .7;
     }
